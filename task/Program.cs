@@ -1,2 +1,2 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿string[] stringArray = new string[]{"Abcd", "1230", "J'aime le lasan", "Зонтик", "@", ",..,"};
+
