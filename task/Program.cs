@@ -12,7 +12,7 @@ void outputArray(string[] inputArray)
 
 string[] findStringThreeChars(string[] inputArray)
 {
-    string[] resultArray = new string[0];
+    string[] resArray = new string[0];
     int j;
     for (int i = 0; i < inputArray.Length; i++)
     {
@@ -23,11 +23,11 @@ string[] findStringThreeChars(string[] inputArray)
         }
         if (j <= 3)
         {
-            Array.Resize(ref resultArray, resultArray.Length + 1);
-            resultArray[resultArray.Length - 1] = inputArray[i];
+            Array.Resize(ref resArray, resArray.Length + 1);
+            resArray[resArray.Length - 1] = inputArray[i];
         }
     }
-    return resultArray;
+    return resArray;
 }
 
 System.Console.WriteLine("\nЗадан массив строк:");
